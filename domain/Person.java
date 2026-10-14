@@ -23,6 +23,16 @@ public class Person {
         this.ammo = ammo;
     }
 
+    public void takeDamage(int amt){
+        // have a strat to validate your inputs
+        if(amt < 0){
+            throw new IllegalArgumentException("Damage values must be positive");
+        } else {
+            health -= amt;
+        } 
+    }
+
+
     public String getName() {
         return name;
     }

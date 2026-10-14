@@ -1,0 +1,5 @@
+Show demo of working project
+Demonstrate zombie and person interactions in main
+discuss structure of program - decoupling domain classes from business logic
+Work on developing algorithm for combat resolution
+Utilities class and constants / random utilities
